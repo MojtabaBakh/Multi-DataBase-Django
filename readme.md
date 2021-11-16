@@ -15,7 +15,7 @@ we must initial databases in setting like this:
 and must add DATABASE_ROUTERS like this :
 
 
-![Neutral png](/picture/setting1.png) 
+![Neutral png](/picture/setting2.png) 
 
 
 in db_routers.py must write each method 
