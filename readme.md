@@ -1,15 +1,41 @@
 
-this is a sample flexible pagination 
+This is Django project multidatabase
 
 
-using python Django
+we have user.db for user datas
+
+and book.db for book app datas
+
+we must initial databases in setting like this:
 
 
-can select number of students per page and page
+![Neutral png](/picture/setting1.png) 
+
+
+and must add DATABASE_ROUTERS like this :
+
+
+![Neutral png](/picture/setting1.png) 
+
+
+in db_routers.py must write each method 
+
+
+user method is :
+
+
+![Neutral png](/picture/config1.png) 
 
 
 
-![Neutral png](/picture/sam.png) 
+and book method is :
+
+
+![Neutral png](/picture/config2.png) 
+
+
+
+
 
 
 
